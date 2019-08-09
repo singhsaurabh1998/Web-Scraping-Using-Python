@@ -30,7 +30,7 @@ class Insta_Info_Scraper:
         print('---------------------------')
 
     def main(self):
-        # these three lines just for establishing the secure connection
+        # these thre lines just for establishing the secure connection
         self.ctx = ssl.create_default_context()
         self.ctx.check_hostname = False
         self.ctx.verify_mode = ssl.CERT_NONE
